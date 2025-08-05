@@ -7,7 +7,7 @@
 .footer-social-media {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;  
     border-bottom: 1px solid var(--main-color);
     padding: 10px;
     padding-bottom: 20px;
