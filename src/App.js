@@ -10,7 +10,6 @@ import Contact from "./pages/contact/Contact";
 import Login from "./pages/forms/Login";
 import Register from "./pages/forms/Register";
 import HomePage from "./pages/home/HomePage";
-import {BrowserRouter} from "react-router-dom"
 function App() {
   return (
     <BrowserRouter>
