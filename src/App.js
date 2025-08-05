@@ -10,10 +10,10 @@ import Contact from "./pages/contact/Contact";
 import Login from "./pages/forms/Login";
 import Register from "./pages/forms/Register";
 import HomePage from "./pages/home/HomePage";
-
+import {HashRouter} from "react-router-dom"
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
